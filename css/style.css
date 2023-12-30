@@ -2,18 +2,6 @@
   scroll-behavior: smooth;
 } */
 
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-li {
-  font-weight: normal;
-}
-
 #slider {
   margin-bottom: 30px;
   position: relative;
@@ -85,7 +73,7 @@ li {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+  /* font-family: "poppins", sans-serif; */
 }
 @property --progress-value {
   syntax: "<integer>";
@@ -559,8 +547,6 @@ eeps footer always to the bottom {
 html,
 body {
   height: 100%;
-
-  font-weight: normal;
 }
 
 footer,
@@ -581,8 +567,6 @@ footer,
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     height: 100%;
-
-    font-weight: normal;
   }
 
   /* Slider styles */
