@@ -547,6 +547,8 @@ eeps footer always to the bottom {
 html,
 body {
   height: 100%;
+
+  font-weight: normal;
 }
 
 footer,
@@ -567,6 +569,8 @@ footer,
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     height: 100%;
+
+    font-weight: normal;
   }
 
   /* Slider styles */
